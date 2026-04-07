@@ -1,3 +1,25 @@
+## **Repository Structure :**
+
+```
+notebooks/
+│
+├── catalog_notebook
+├── bronze_notebook
+├── silver_notebook
+├── gold_notebook
+├── bank_transaction_insights
+│
+data/
+│
+├── transactions.csv
+
+output_screens/
+│
+├── screenshots
+```
+
+
+
 ## **Banking Fraud Detection Project :**
 End-to-end Data Engineering project to detect fraudulent banking transactions using Azure + Spark + Delta Lake architecture + Azure ADF.
 
@@ -62,11 +84,53 @@ output_screens/
 
 
 ## **Infrastructure Setup:**
-![alt text](Out_Screens/infracture.jpg)
+<img src="Out_Screens/infracture.jpg" width="500" height="250"/>
 
 
 ## **Databricks Setup:**
-![alt text](Out_Screens/dataBricksSetup.png)
+<img src="Out_Screens/dataBricksSetup.png" width="500" height="250"/>
 
 ## **Storage account Setup:**
-![alt text](Out_Screens/Storage-Account-Setup.png)
+<img src="Out_Screens/Storage-Account-Setup.png" width="500" height="250"/>
+
+
+## **ADF pipeline Setup:**
+
+
+
+## **Notebooks Explaination:**
+use of each notebook are as follows:
+
+### **1) Databricks_Setup_Notebook.py:**
+* This spark notebook use to setup the required environment in databricks workspace.
+* This notebook perform following operations:
+   ```
+      1) create storage credientails.
+      2) create external location.
+      3) create catalog.
+      4) create schema.
+      5) add permissions.
+   
+   ```
+
+### **2) bronze_Notebook.py:**
+
+* This spark notebook read source raw data from storage account broze container.
+* This notebook perform following operations:
+   ```
+      1) Read the source data.
+      2) describe schema of source data.
+   ```
+
+### **3) Silver_Notebook.py:**
+
+* This spark notebook perform following operations:
+   ```
+      1) Read the data from bronze container.
+      2) Clean source data.
+      3) Check null values.
+      4) generate parquet files from clean data.
+      5) Transfer parquet file in silver container.
+      6) create managed and external tables.
+      7) perform optimizations.
+   ```
