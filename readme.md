@@ -29,6 +29,7 @@ PowerBi-dashboard-screens/
 ## **Banking Fraud Detection Project :**
 ```
    End-to-end Data Engineering project to detect fraudulent banking transactions using Azure + Spark + Delta Lake architecture + Azure ADF.
+   
 ```
 
 ## **Project Overview:**
