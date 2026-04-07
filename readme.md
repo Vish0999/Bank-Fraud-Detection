@@ -21,6 +21,7 @@ Output_screens/
 PowerBi-dashboard-screens/
 │
 ├── dashboard screenshots
+
 ```
 
 
@@ -67,28 +68,8 @@ Power BI Dashboard
 8) Unity Catalog
 9) Azure ADF
 
-## **Project Structure :**
 
-```
-notebooks/
-│
-├── catalog_notebook
-├── bronze_notebook
-├── silver_notebook
-├── gold_notebook
-├── bank_transaction_insights
-│
-data/
-│
-├── transactions.csv
-
-output_screens/
-│
-├── screenshots
-```
-
-
-## **Infrastructure Setup:**
+## ** Azure Infrastructure Setup:**
 <img src="Output_Screens/infracture.jpg" width="500" height="250"/>
 
 
