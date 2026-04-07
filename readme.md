@@ -39,5 +39,34 @@ Power BI Dashboard
 7) SQL
 8) Unity Catalog
 9) Azure ADF
-9) Azure ADF
 
+## **Project Structure :**
+
+```
+notebooks/
+│
+├── catalog_notebook
+├── bronze_notebook
+├── silver_notebook
+├── gold_notebook
+├── bank_transaction_insights
+│
+data/
+│
+├── transactions.csv
+
+output_screens/
+│
+├── screenshots
+```
+
+
+## **Infrastructure Setup:**
+![alt text](Out_Screens/infracture.jpg)
+
+
+## **Databricks Setup:**
+![alt text](Out_Screens/dataBricksSetup.png)
+
+## **Storage account Setup:**
+![alt text](Out_Screens/Storage-Account-Setup.png)
