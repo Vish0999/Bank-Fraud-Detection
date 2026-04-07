@@ -84,19 +84,25 @@ output_screens/
 
 
 ## **Infrastructure Setup:**
-<img src="Out_Screens/infracture.jpg" width="500" height="250"/>
+<img src="Output_Screens/infracture.jpg" width="500" height="250"/>
 
 
 ## **Databricks Setup:**
-<img src="Out_Screens/dataBricksSetup.png" width="500" height="250"/>
+<img src="Output_Screens/dataBricksSetup.png" width="500" height="250"/>
 
 ## **Storage account Setup:**
-<img src="Out_Screens/Storage-Account-Setup.png" width="500" height="250"/>
+<img src="Output_Screens/Storage-Account-Setup.png" width="500" height="250"/>
 
 
 ## **ADF pipeline Setup:**
+* For ADF pipeline we need to create link service. Here i want to link azure databricks to ADF. So for this i create one link service name as **AzureDatabricks**.
 
+<img src="Output_Screens/ADF-Pipeline.png" width="500" height="250"/>
 
+* In this pipeline i call the databricks notebooks to generate business insights.
+
+## ** pipeline OutPut:**
+<img src="Output_Screens/Pipeline-Output.png" width="500" height="250"/>
 
 ## **Notebooks Explaination:**
 use of each notebook are as follows:
@@ -150,5 +156,32 @@ use of each notebook are as follows:
    ```
      1) perform windows operation to generate business insights.
    ```
+
+
+   ## **PowerBi Dashboard Metrics :**
+
+   ```
+   Power BI dashboard shows:
+         1) Total Transactions
+         2) Total Fraud Transactions
+         3) Fraud Percentage
+         4) Fraud by Category
+         5) Fraud by Gender
+         6) Fraud by Year
+         7) Transaction Trend
+   ```
+
+
+   ## **PowerBi Dashboard screens:**
+
+   ### Page 1 : (Graphical Representation)
+
+   <img src="PowerBi-Dashbord-screens/powerBi-Page1.png" width="500" height="250"/>
+
+    ### Page 2 :( Representation in tabular format )
+
+   <img src="PowerBi-Dashbord-screens/powerBi-Page2.png" width="500" height="250"/>
+
+
 
 
