@@ -27,7 +27,9 @@ PowerBi-dashboard-screens/
 
 
 ## **Banking Fraud Detection Project :**
-End-to-end Data Engineering project to detect fraudulent banking transactions using Azure + Spark + Delta Lake architecture + Azure ADF.
+```
+   End-to-end Data Engineering project to detect fraudulent banking transactions using Azure + Spark + Delta Lake architecture + Azure ADF.
+```
 
 ## **Project Overview:**
 
@@ -38,10 +40,11 @@ This project builds a Fraud Detection Data Pipeline that:
 * Applies fraud detection rules
 * Stores curated fraud dataset
 * Builds dashboard for insights
-
+```
 Architecture follows Medallion Architecture:
 
-**Bronze → Silver → Gold**
+Bronze → Silver → Gold
+```
 
 ## **Project Architecture :**
 
@@ -69,7 +72,7 @@ Power BI Dashboard
 9) Azure ADF
 
 
-## ** Azure Infrastructure Setup:**
+## **Azure Infrastructure Setup:**
 <img src="Output_Screens/infracture.jpg" width="500" height="250"/>
 
 
@@ -87,7 +90,7 @@ Power BI Dashboard
 
 * In this pipeline i call the databricks notebooks to generate business insights.
 
-## ** pipeline OutPut:**
+## **pipeline OutPut:**
 <img src="Output_Screens/Pipeline-Output.png" width="500" height="250"/>
 
 ## **Notebooks Explaination:**
