@@ -1,7 +1,12 @@
 ## **Repository Structure :**
 
 ```
-notebooks/
+
+Data/
+│
+├── transactions.csv
+│
+Notebooks/
 │
 ├── catalog_notebook
 ├── bronze_notebook
@@ -9,13 +14,13 @@ notebooks/
 ├── gold_notebook
 ├── bank_transaction_insights
 │
-data/
-│
-├── transactions.csv
-
-output_screens/
+Output_screens/
 │
 ├── screenshots
+│
+PowerBi-dashboard-screens/
+│
+├── dashboard screenshots
 ```
 
 
@@ -159,6 +164,8 @@ use of each notebook are as follows:
 
 
    ## **PowerBi Dashboard Metrics :**
+
+   * To Create Power Bi dashboard here i used Dax query and and for advance business insight i add new derived columns and new measures.
 
    ```
    Power BI dashboard shows:
