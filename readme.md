@@ -134,3 +134,21 @@ use of each notebook are as follows:
       6) create managed and external tables.
       7) perform optimizations.
    ```
+
+### **4) gold_Notebook.py:**
+* This spark notebook perform following operations:
+   ```
+     1) adding new column in cleaning dataset
+     2) perform optimization.
+     3) generate parquet files from clean data.
+     4) Divide cleaning data into small small chunks/tables to generate business insight.
+     5) store data as managed and external tables.
+   ```
+
+   ### **5) bank_transaction_insights.py:**
+* This spark notebook perform following operations:
+   ```
+     1) perform windows operation to generate business insights.
+   ```
+
+
