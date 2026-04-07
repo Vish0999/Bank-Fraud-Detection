@@ -61,16 +61,16 @@ Power BI Dashboard
 ```
 
 ## **Pre-requisite / Technologies Used:**
-
-1) Azure Data Lake Storage Gen2
-2) Azure Databricks
-3) PySpark
-5) Power BI
-6) Python
-7) SQL
-8) Unity Catalog
-9) Azure ADF
-
+```
+   1) Azure Data Lake Storage Gen2
+   2) Azure Databricks
+   3) PySpark
+   5) Power BI
+   6) Python
+   7) SQL
+   8) Unity Catalog
+   9) Azure ADF
+```
 
 ## **Azure Infrastructure Setup:**
 <img src="Output_Screens/infracture.jpg" width="500" height="250"/>
